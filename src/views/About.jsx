@@ -30,14 +30,7 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently.
+              I'm a self-taught web developer with extensive experience in transforming new features from ideation to production. I excel in implementing wireframes and design flows into high-performance software applications, always prioritizing user experience. By writing reusable and efficient code, I ensure the sustainability and scalability of every project. My passion lies in blending good design, technology, and innovation, and I am committed to overseeing projects from the initial concept to final release.
             </p>
           </motion.div>
           <motion.div
@@ -53,8 +46,7 @@ const About = () => {
               }
             >
               Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
+              open-source software I build user-focused, performant websites for smartphones, tablets, and desktops.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

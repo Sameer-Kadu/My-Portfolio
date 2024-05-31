@@ -7,7 +7,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
-
+// import Sameer from ".//Sameer-Kadu-Resume.pdf";
+// function openResume(event) {
+//   event.preventDefault(); // Prevent the default behavior of navigating to the href
+//   window.open('', '_blank'); // Open the PDF file in a new tab
+// }
 const Home = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -66,8 +70,11 @@ const Home = () => {
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <a target="_blank" rel="noopener noreferrer" href="/Sameer-Kadu-Resume.pdf" className="w-full  items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+              <div className="mt-3 sm:mt-0 cursor-pointer w-1/2"> 
+                <a href="/Sameer-Kadu-Resume.pdf"
+                className="w-full  items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                 
+                 >
                   Resume
                 </a>
               </div>
