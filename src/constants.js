@@ -46,28 +46,25 @@ export const contactLinks = [{ name: 'Stack Overflow', url: 'https://img.icons8.
 
 export const serviceData = [
   {
-    name: 'Web Application Development',
-    desc: 'Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine',
+    name: 'Front-end Development',
+    desc: 'As a front-end developer, I bring your creative visions to life by crafting visually stunning and highly interactive user interfaces. I specialize in designing responsive layouts that work seamlessly across all devices and browsers, ensuring an optimal user experience. Using cutting-edge technologies like HTML, CSS, and JavaScript, I create intuitive and engaging interfaces that captivate and retain your audience.',
     img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"
   },
   {
-    name: 'Mobile Application Development',
-    desc: `We provide a range of mobile application development services
-    including custom mobile development on Android platforms, building
-    cross-platform apps, designing user experience and integrating
-    novel mobile interfaces such as chat and voice`,
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
-  },
-
-  {
-    name: 'Backend Development',
-    desc: `Graphic design is a craft where professionals create visual
-    content to communicate messages. By applying visual hierarchy and
-    page layout techniques, designers use typography and pictures to
-    meet users' specific needs and focus on the logic of displaying
-    elements in interactive designs, to optimize the user experience.`,
+    name: 'Back-end Development',
+    desc: `I offer robust back-end development services to ensure your website or application runs smoothly and efficiently. By leveraging powerful languages and frameworks such as Python, Ruby, PHP, Node.js, and Django, I build secure, scalable, and high-performance server-side solutions. From database management to user authentication and data processing, I provide the backbone that powers your digital presence, ensuring seamless integration and functionality.`,
     img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
   },
+  // {
+  //   name: 'Mobile Application Development',
+  //   desc: `We provide a range of mobile application development services
+  //   including custom mobile development on Android platforms, building
+  //   cross-platform apps, designing user experience and integrating
+  //   novel mobile interfaces such as chat and voice`,
+  //   img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
+  // },
+
+  
 
 
 ]

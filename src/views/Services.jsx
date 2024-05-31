@@ -29,7 +29,7 @@ const Services = () => {
           <h4 className="mt-16 text-3xl font-semibold text-blue-500">
             What I Provide
           </h4>
-          <div className="mt-8 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
+          <div className="mt-8 flex md:flex-row justify-evenly flex-col md:items-stretch items-center ">
             {serviceData.map((el) => (
               <motion.div
                 initial="hidden"
@@ -46,7 +46,7 @@ const Services = () => {
               >
                 <img src={el.img} alt="" />
                 <h4 className="text-xl font-bold mt-4">{el.name}</h4>
-                <p className="text-lg mt-2 text-justify">{el.desc}</p>
+                <p className="text mt-2 text-justify">{el.desc}</p>
               </motion.div>
             ))}
           </div>
